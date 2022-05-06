@@ -1,0 +1,24 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <ul id="nav">
+      <!--<li><a class="active" href="#home">Search</a></li>-->
+      <li><a id="explore" href="#explore" onclick="switch_page('explore');">Explore</a></li>
+      <li><a id="installed" href="#installed" onclick="switch_page('installed');">Installed</a></li>
+      <li><a id="about" href="#about" onclick="switch_page('about');">About</a></li>
+      <li style='width: auto;' class="title_bar_search"><input id="title_bar_search" type="search" placeholder="Search a package..."></li>
+    </ul>
+
+    <div id="main_body"></div>
+  </body>
+  <script src="switch_page.js"></script>
+  <script src="./get_img_tone.js"></script>
+  <script src="./about.js"></script>
+  <script src="./explore.js"></script>
+  <script src="./installed.js"></script>
+  <script>
+    switch_page('explore')
+  </script>
+</html>
