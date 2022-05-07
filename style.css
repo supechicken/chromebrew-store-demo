@@ -18,6 +18,7 @@ body {
   /*min-width: 10in;*/
   margin: 0;
   overflow: hidden;
+  font-family: Arial;
 }
 
 ul#nav, #main_body {
